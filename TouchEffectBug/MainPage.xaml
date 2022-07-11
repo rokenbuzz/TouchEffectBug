@@ -23,7 +23,7 @@
         </Label>
 
         <local:ButtonFrame  WidthRequest="130" HeightRequest="30" Command="{Binding DoSomethingCommand}">
-            <Label Text="TEST BUTTON 3"/>
+            <Label Text="TEST BUTTON"/>
         </local:ButtonFrame>
         
     </StackLayout>
