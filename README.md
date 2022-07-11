@@ -8,5 +8,5 @@ I have implemented a simple button-like control to contain any content, using a 
 Xamarin.CommunityToolkit TouchEffect attached properties.
 The TouchEffect properties animate the frame to look like a button press.
 
-The issue is that most of the time the very first button touch doesn't not animate. The Command for the button does get executed, but without the animation. After the first touch ANYWHERE on the application, all subsequent button DO animate.
+The issue is that most of the time the very first button touch doesn't not animate. The Command for the button does get executed, but without the animation. After the first touch ANYWHERE on the application, all subsequent button touches DO animate.
 I find this to be the case running the Visual Studio android emulator or on several android phones, both in debug and release.
